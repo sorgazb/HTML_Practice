@@ -1,0 +1,36 @@
+body{
+background:#9fc8d9;
+}
+
+.rotulo{
+width:900px;
+margin: 20px auto;
+padding: 10px;
+text-align: center;
+background: #0f76A0;
+color:#ffffff;
+font: bold 26px Verdana, sans-serif;
+border: 5px solid #000000;
+border-radius: 20px;
+}
+
+figure{
+width:400px;
+height:240px;
+margin: 20px auto;
+border: 5px solid #000000;
+}
+
+#volver {
+    width: 100px;
+    display:flex;
+    margin:10px auto;
+    background:#0f76A0;
+    border-radius: 25px;
+    
+} 
+#volver a{
+    color:#ffffff;
+    text-decoration: none;
+    margin:auto;
+}

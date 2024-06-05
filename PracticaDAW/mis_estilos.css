@@ -1,0 +1,226 @@
+/*Diseño del header*/
+header {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 96%;
+    height: 150px;
+    background: #0f76a0;
+}
+
+/*Diseño de la cabecera*/
+#cabeceralogo {
+    display: flex;
+    justify-content: center;
+    padding: 0% 2%;
+    padding-top: 45px;
+}
+
+#cabeceralogo>div {
+    flex: 1;
+    max-width: 960px;
+}
+
+header h1{
+    font: bold 54px Arial,sans-serif;
+    color: #ffffff;
+}
+
+
+/*Diseño menú principal*/
+#menuprincipal {
+    display: flex;
+    justify-content: center;
+    padding: 0% 2%;
+    background-color: #9FC8D9;
+    width: 96%;
+    height: 50px;
+    border-top: 1px solid #094660;
+    border-bottom: 1px solid #094660;
+}
+
+#menuprincipal>div {
+    flex: 1;
+    max-width: 960px;
+}
+
+#menuprincipal li {
+    display: inline-block;
+
+}
+
+#menuprincipal li:hover {
+    background-color: #6FACC6;
+}
+
+#menuprincipal a {
+    font: bold 18px Arial, sans-serif;
+    color: #333333;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-right: 5px;
+    height: 35px;
+}
+
+/*Diseño de la sección principal*/
+main {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-image: url("fondo.png");
+}
+
+main>div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+}
+
+#articulosprincipales {
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#arcos {
+    filter: opacity(50%);
+}
+
+#infoadicional {
+    width: 280px;
+    padding: 20px;
+    background-color: #E7F1F5;
+    border-radius: 10px;
+}
+
+#infoadicional p {
+    font: bold 16px Arial, sans-serif;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(182, 182, 190);
+    border: black 1px solid;
+    box-shadow: 5px 5px 5px #0b0b0b;
+    border-radius: 20px;
+}
+
+.informacion {
+    width: 240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font: bold 26px Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    animation: animacion 1s linear 0s infinite alternate none;
+}
+
+@keyframes animacion {
+    0% {
+        background: #0b0b0b;
+    }
+
+    100% {
+        background: #ff0000;
+    }
+}
+
+#infoadicional a {
+    color: #0b0560;
+}
+
+.recuperar {
+    clear: both;
+}
+
+/*Configuración columna article*/
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+.izquierdo {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #094660;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.8);
+    border-radius: 5px;
+}
+
+.derecho {
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -100px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #094660;
+    box-shadow: -3px -3px 5px rgba(100, 100, 100, 0.8);
+    border-radius: 5px;
+}
+
+.num_articulo {
+    font: bold 36px Verdana, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.nom_articulo {
+    font: 12px Verdana, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/*Diseño web*/
+article h1 {
+    margin-bottom: 5px;
+    font: bold 30px Georgia, sans-serif;
+}
+
+article p {
+    font: 18px Georgia, sans-serif;
+}
+
+figure {
+    margin: 10px 0px;
+}
+
+figure img {
+    padding: 5px;
+    border: 1px solid;
+}
+
+/*Diseño del pie*/
+#pielogo {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-color: #0F76A0;
+}
+
+#pielogo>div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+    background-color: #9FC8D9;
+    border-radius: 10px;
+}
+
+.seccionpie {
+    flex: 1;
+    padding: 25px;
+    color: #0b0560;
+}
